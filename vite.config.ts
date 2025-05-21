@@ -95,9 +95,8 @@ export default defineConfig((config) => {
       target: 'esnext',
     },
     server: {
-      allowedHosts: [
-        "ai-strarter-kit-boltdy.zoo3o7.easypanel.host"
-      ]
+      host: '0.0.0.0',
+      allowedHosts: ['ai-strarter-kit-boltdiy.zoo3o7.easypanel.host'],
     },
     plugins: [
       nodePolyfills({
