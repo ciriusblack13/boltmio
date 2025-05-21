@@ -94,6 +94,11 @@ export default defineConfig((config) => {
     build: {
       target: 'esnext',
     },
+    server: {
+      allowedHosts: [
+        "ai-strarter-kit-boltdy.zoo3o7.easypanel.host"
+      ]
+    },
     plugins: [
       nodePolyfills({
         include: ['buffer', 'process', 'util', 'stream'],
